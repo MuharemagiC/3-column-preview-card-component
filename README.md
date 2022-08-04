@@ -12,7 +12,7 @@
 
 ### Screenshot
 
-![](./src/assets/images/Screen.png)
+![](./assets/images/screen.png)
 
 ### Links
 
