@@ -1,0 +1,128 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #F2F2F2;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-wrapper {
+    display: flex;
+    width: 920px;
+    min-height: 500px;
+    background: #E28625;
+    border-radius: 8px;
+}
+
+.section {
+    min-height: calc(500px - 48px - 48px);
+}
+
+.orange {
+    width: 34%;
+    background: #E28625;
+    border-radius: 8px 0 0 8px;
+    padding: 48px;
+}
+
+.mint {
+    width: 33%;
+    background: #006971;
+    border-radius: 8px;
+    padding: 48px;
+}
+
+.green {
+    width: 33%;
+    background: #004140;
+    border-radius: 0px 8px 8px 0px;
+    padding: 48px;
+}
+
+.title {
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+    margin: 0;
+    margin-top: 35px;
+    margin-bottom: 25px
+}
+
+.section-text {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    max-width: 212px;
+    margin: 0;
+    margin-bottom: 83px
+}
+
+.learn-more {
+    width: 146px;
+    height: 48px;
+    background: #F2F2F2;
+    border-radius: 25px;
+    border: none;
+}
+
+.learn-more__orange {
+    color: #E28625;
+    transition: 0.3s ease-in;
+}
+
+.learn-more__mint {
+    color: #006971;
+    transition: 0.3s ease-in;
+}
+
+.learn-more__green {
+    color: #004140;
+    transition: 0.3s ease-in;
+}
+
+.learn-more__mint:hover, .learn-more__orange:hover, .learn-more__green:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid #FFFFFF;
+    cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .card-wrapper {
+        flex-direction: column;
+        width: 327px;
+        height: auto;
+    }
+    .orange, .mint, .green {
+        width: auto;
+    }
+    .section-text {
+        margin-bottom: 25px;
+    }
+    .section {
+        min-height: calc(442px - 48px - 48px);
+    }
+
+    .orange {
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .green {
+        border-radius: 0px 0px 8px 8px;
+    }
+}
