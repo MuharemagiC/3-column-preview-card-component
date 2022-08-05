@@ -17,7 +17,7 @@
 ### Links
 
 - Solution URL: [https://github.com/MuharemagiC/3-column-preview-card-component](https://github.com/MuharemagiC/3-column-preview-card-component)
-- Live Site URL: [https://muharemagic.github.io/interactive-rating-component/](https://muharemagic.github.io/3-column-preview-card-component/)
+- Live Site URL: [https://muharemagic.github.io/3-column-preview-card-component/](https://muharemagic.github.io/3-column-preview-card-component/)
 
 ## My process
 
